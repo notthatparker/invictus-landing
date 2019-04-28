@@ -1,0 +1,38 @@
+html, body, .page {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  transition: all .2s cubic-bezier(.5, .2, .2, 1.1);
+  -webkit-transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
+  -moz-transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
+  -o-transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
+  color: #fff;
+  overflow: hidden;
+}
+.titler{
+  padding: 400px;
+}
+.float-right{
+  background-blend-mode: multiply;
+
+}
+.as{
+  position: absolute;	height: auto%;	width:auto;
+  opacity:50%;
+}
+#p1 { background: #BD10E0;
+padding-bottom:20%;}
+.ourmiss {
+  height: 70%;
+  width: auto;
+  padding-top: 10%;
+  padding-right:10%;
+  	color: #FFFFFF;
+    font-family: "MADE Evolve Sans EVO";
+    	font-size: 100%;
+      	line-height: 35px;
+        overflow: hidden;}
+#fr{
+  background-blend-mode: multiply;
+}

@@ -1,0 +1,66 @@
+html, body, .page {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  transition: all .2s cubic-bezier(.5, .2, .2, 1.1);
+  -webkit-transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
+  -moz-transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
+  -o-transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
+  color: #fff;
+  overflow: hidden;
+  background:  #00906B url(kokoko.png) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-position: bottom;
+background-size: contain;
+background-blend-mode: multiply;
+}
+.titler{
+  padding: 400px;
+}
+.float-right{
+  background-blend-mode: multiply;
+
+}
+.about{
+  position: relative;
+
+}
+.so{
+
+}
+
+.contents{
+position: relative;
+padding: 2%;
+margin: 2%;
+}
+
+/*#p1 { background: #00906B;
+padding-bottom:20%;}*/
+#duo{
+    background-color:  #00907B;
+
+}
+
+#duo {
+    background-color: #00907B;
+}
+
+#duo {
+    background-color: #00907B ;
+    color: white;
+}
+
+.ourmiss {
+  height: 70%;
+  width: auto;
+  padding-top: 2%;
+  padding-right:10%;
+  	color: #FFFFFF;
+    font-family: "MADE Evolve Sans EVO";
+    	font-size: 100%;
+      	line-height: 35px;
+        overflow: hidden;}
