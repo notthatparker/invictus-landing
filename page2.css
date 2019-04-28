@@ -9,6 +9,13 @@ html, body, .page {
   -o-transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
   color: #fff;
   overflow: hidden;
+  background: #BD10E0 url(vaideda.png) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-position: bottom;
+background-size: contain;
+background-blend-mode: darken;
 }
 .titler{
   padding: 400px;
@@ -17,11 +24,22 @@ html, body, .page {
   background-blend-mode: multiply;
 
 }
+.missional{
+  margin: 2%;
+}
+.vaideda{
+  opacity: 20%;
+}
+.texter{
+  text-align: center;
+  font-size: 40%;
+  padding-top: 20%;
+}
 .as{
   position: absolute;	height: auto%;	width:auto;
   opacity:50%;
 }
-#p1 { background: #BD10E0;
+#p1 {
 padding-bottom:20%;}
 .ourmiss {
   height: 70%;
@@ -35,4 +53,33 @@ padding-bottom:20%;}
         overflow: hidden;}
 #fr{
   background-blend-mode: multiply;
+}
+.texter{
+  margin-bottom: 48%;
+  height: auto;
+  top: 0;
+}
+#logo{
+  align-items: center;
+  height: 15%;
+  padding-bottom:2%;
+}
+/*found this animation not this exact but core idea for it on W3School and reused it to give
+page some playfulness mixed with the rough idea of wht company is going to be in couple
+of years and etc */
+#suni{color: rgba(0, 0, 0, .2);
+align-items: center;}
+#suni:before {
+    content: attr(data-text);
+    position: absolute;
+    overflow: hidden;
+    max-width: 17em;
+    white-space: nowrap;
+    color: #fff;
+    animation: loading 20s linear;
+}
+@keyframes loading {
+    0% {
+        max-width: 0;
+    }
 }
