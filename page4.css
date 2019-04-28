@@ -9,7 +9,33 @@ html, body, .page {
   -o-transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
   color: #fff;
   overflow: hidden;
+  background:url(alter.png) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-position: bottom;
+background-size: cover;
+background-blend-mode: normal;
 }
+
+/* all of the background photos are edited and retouched and mostly restored by me
+reusing old stock royality free photos and paintings for my side project which i took for this
+project as inspiration */
+.button{background-color: white;}
+.title_contacts{color: #1d1d1d;}
+.btn-mod.btn-border:hover, .btn-mod.btn-border:active, .btn-mod.btn-border:focus, .btn-mod.btn-border:active:focus {
+    color: #2A53C1;
+    border-color: white;
+    background:white;
+     background-color: white;
+    outline:inherit;
+    border-radius: 5px;
+}
+.container{
+  padding-top:2%;
+}
+
+
 .titler{
   position: relative;
 

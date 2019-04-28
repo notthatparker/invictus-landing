@@ -31,6 +31,8 @@ background-blend-mode: multiply;
 .float-right{
   background-blend-mode: multiply;
   align-items: center;
+  display: block;
+  width: 30%;
 }
 .ourmiss {
   height: 70%;
@@ -42,7 +44,8 @@ background-blend-mode: multiply;
     font-family: "MADE Evolve Sans EVO";
     	font-size: 100%;
       	line-height: 35px;
-        overflow: hidden;}
+        overflow: hidden;
+      display: block;}
 
         .photoblock{
           position: absolute;
@@ -60,8 +63,7 @@ background-blend-mode: multiply;
           	opacity: 0.61%;
             background: linear-gradient(0deg, rgba(238,238,238,0) 0%, #D8D8D8 100%);}*/
 .as{
-  position: fixed;
-
+    position: fixed;
   	height: 100%;
     	width:100%;
    padding-bottom: 70px;
